@@ -1,0 +1,83 @@
+
+<div class="container col-md-8 mine" style="margin-top: 6%;">
+  <img src="/img/fond1.png" alt="fondo1" class=" fond">
+
+  <div class="container col-md-5 mine2">
+       <img src="/img/Logo.jpg" alt="Logo" class="rounded-circle mx-auto d-block m-4 logo">
+
+   <center> <h6 class="textmine">FORMULARIO DE RESGISTRO</h6></center>
+
+  </div>
+     {{!-- <fieldset class="col-8 col-md-12 px-3">
+    <legend>Resgistro</legend> --}}
+  <form action="/users/register" method="POST" >
+    <div class="container col-md-12" style="margin-top: 4%;">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control mine" placeholder="Nombre" name="nombre" value="{{nombre}}">
+             <span ><i class="material-symbols-sharp">person</i></span>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control mine" placeholder="Apellido" name="apellido"  value="{{apellido}}">
+            <span ><i class="material-symbols-sharp">person</i></span>
+        </div>
+      </div>  
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control mine" placeholder="Celular" name="celular" value="{{celular}}">
+            <span ><i class="material-symbols-sharp">contacts</i></span>
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control mine" placeholder="Correo" name="correo" value="{{correo}}">
+            <span ><i class="material-symbols-sharp">email</i></span>
+
+        </div>
+      </div>  
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <input type="text" class="form-control mine" placeholder="Contraseña" name="password" value="{{password}}">
+           <span ><i class="material-symbols-sharp">lock</i></span>
+            
+        </div>
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control mine" placeholder="Confirmar Contraseña" name="confirmpassword" value="{{confirmpassword}}">
+           <span ><i class="material-symbols-sharp">password</i></span>
+       
+        </div>
+      </div>  
+
+      <div class="form-row">
+        <div class="form-group col-md-2" >
+            <input type="text" class="form-control mine" placeholder="   Genero" name="genero" value="{{genero}}">
+            <span ><i class="material-symbols-sharp" style="margin-bottom: 3%;">transgender</i></span>
+
+        </div>
+        
+         <div class="form-group col-md-2">
+           <strong><label style="color: #43baff; padding-left:36%;">M</label></strong>
+            <button type="button" class="btn btn-light btn-circle btn-xl" ></button>
+        </div>
+        <div class="form-group col-md-2" style=" padding-left:7%;">
+           <strong><label style="color: #43baff;">F</label></strong>
+            <button type="button" class="btn btn-light btn-circle btn-xl" ></button>
+        </div>
+        <div class="form-group col-md-6" >
+            <input type="text" class="form-control mine" placeholder="Ciudad" name="ciudad" value="{{ciudad}}">
+                       <span ><i class="material-symbols-sharp">where_to_vote</i></span>
+
+        </div>
+       
+      </div>  
+     <div class="form-row" style="margin-top: 3%;">
+
+       <div class="form-group col-md-12">
+          <button type="submit" class="btn btn-primary btn-lg form" >REGISTRAR</button>
+        </div>
+
+      </div>
+    </div>
+  </form>    
+  {{!-- </fieldset> --}}
+
+</div>
+
